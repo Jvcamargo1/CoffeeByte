@@ -1,0 +1,38 @@
+.product-coffee-info {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 2em;
+}
+
+.product-coffee-info .container {
+    border: 1px solid;
+    padding: 1em;
+    width: 100%;
+}
+
+.product-coffee-info img {
+    height: 20em;
+}
+
+.product-coffee-info p {
+    padding: 1em;
+}
+
+.product-coffee {
+    display: flex;
+    padding: 1em;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .product-coffee {
+        flex-direction: column;
+    }
+
+    .product-coffee-info img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
